@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AgroControl Landing Page">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>AgroControl</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#hero"><img src="assets/logo-agro-control.png"></a>
+            <div class="button-wrapper">
+                <button id="menu-toggle"><img id="img-menu" src="assets/interface.png"></button>
+            </div>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#user-features">Características</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#plans">Planes</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <ul id="nav-links">
+                <li><a href="#hero" id="home">Inicio</a></li>
+                <li><a href="#user-features">Características</a></li>
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#plans">Planes</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="buttons">
+                <a class="button" id="prueba-gratis" href="https://agrocontrol-frontend.vercel.app">Enter webapp</a>
+                <a class="switcher" href="index.html">EN</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="hero">
+        <img id="img-desktop" class="hero-image" src="assets/hero-image.png" alt="AgroControl">
+        <div class="hero-text">
+            <h1>Gestiona todo tu ciclo agrícola eficientemente</h1>
+            <p>Desde la siembra hasta la distribución, nuestra app te ayuda a gestionar cada etapa del proceso agrícola
+                de forma simple y efectiva.</p>
+            <div class="buttons-hero">
+                <button class="button button-primary" onclick="location.href='https://agrocontrol-frontend.vercel.app';" id="get-started">Entrar webapp</button>
+                <button class="button button-secondary" id="learn-more">Saber Más</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="users-features" id="user-features">
+            <div class="users-features__content">
+                <h2 class="users-features__title">Características para Productores<span class="users-features__span">
+                        Agrícolas</span></h2>
+                <ul class="users-features__list">
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Siembra</p>
+                            <p class="users-features__text-sentence">Registra la cantidad de semillas sembradas, los
+                                participantes en el proceso y el costo total.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Riego</p>
+                            <p class="users-features__text-sentence">Programa y monitorea las fechas y horas de riego,
+                                con seguimiento de la persona responsable.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Fumigación</p>
+                            <p class="users-features__text-sentence">Lleva un seguimiento de las fechas, productos
+                                utilizados y las personas responsables del proceso.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Cosecha</p>
+                            <p class="users-features__text-sentence">Administra la producción cosechada, con seguimiento
+                                del personal responsable.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Distribución</p>
+                            <p class="users-features__text-sentence">Planifica puntos de entrega, gestiona la cantidad
+                                distribuida y controla la información financiera.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="users-features__aside">
+                <img src="/assets/producer-features_img.png" class="users-features__aside-img" alt="App Features Image">
+            </div>
+        </section>
+
+        <section class="users-features">
+            <div class="users-features__aside">
+                <img src="/assets/distributor-features_img.png" class="users-features__aside-img"
+                    alt="App Features Image">
+            </div>
+            <div class="users-features__content">
+                <h2 class="users-features__title">Características para<span class="users-features__span">
+                        Distribuidores</span></h2>
+                <ul class="users-features__list">
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Gestión de Inventario</p>
+                            <p class="users-features__text-sentence">Monitorea el inventario disponible en tiempo real
+                                para cada tipo de producto agrícola.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Programación de Entregas</p>
+                            <p class="users-features__text-sentence">Organiza y programa entregas a varios puntos de
+                                distribución.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Seguimiento de Movimientos</p>
+                            <p class="users-features__text-sentence">Lleva un control detallado de entradas y salidas de
+                                productos, optimizando tu logística.</p>
+                        </div>
+                    </li>
+                    <li class="users-features__item">
+                        <div class="users-features__icon">
+                            <img src="/assets/app-features_icon.png" alt="Feature Icon">
+                        </div>
+                        <div class="users-features__text">
+                            <p class="users-features__text-title">Análisis Financiero</p>
+                            <p class="users-features__text-sentence">Genera informes que te ayudarán a tomar decisiones
+                                informadas sobre tu inventario y ventas.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="features" id="benefits">
+
+            <div class="features__description">
+                <h2 class="features__title">
+                    <span>Descubre </span> cómo funciona
+                </h2>
+
+                <p class="features__text">
+                    Explora nuevas características con una demostración guiada o descarga nuestra aplicación y comienza
+                    a gestionar tu producción agrícola hoy mismo.
+                </p>
+            </div>
+
+            <div class="features__cards">
+                <!--card1-->
+                <div class="features__card card--text">
+                    <h3>Control de Cosecha</h3>
+                    <p>
+                        Administra y optimiza tu cosecha con un seguimiento detallado para cada cultivo.
+                        Monitorea las etapas de crecimiento, predice las mejores fechas de cosecha
+                        y asegura una producción de alta calidad.
+                    </p>
+                </div>
+
+                <!--card2-->
+                <div class="features__card">
+                    <img src="assets/card-one.png" alt="person mowing grass">
+                </div>
+
+                <!--card3-->
+                <div class="features__card card--text">
+                    <h3>Monitoreo de Riego</h3>
+                    <p>Recibe alertas automáticas cuando los niveles de humedad caen fuera del rango óptimo,
+                        permitiéndote ajustar el riego y maximizar el rendimiento de los cultivos.</p>
+                </div>
+
+                <!--card4-->
+                <div class="features__card">
+                    <img src="assets/card-two.png" alt="lawn care">
+                </div>
+
+                <!--card5-->
+                <div class="features__card card--text">
+                    <h3>Compras de Semillas y Equipos en Línea</h3>
+                    <p>Accede a una amplia gama de semillas y herramientas agrícolas directamente a través de la
+                        aplicación.
+                        Compara precios, lee reseñas y adquiere los mejores productos para mejorar tus procesos
+                        agrícolas.
+                    </p>
+                </div>
+
+                <!--card6-->
+                <div class="features__card">
+                    <img src="assets/card-three.png" alt="irrigation systems">
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <section class="video-presentation container">
+        <h2 class="video-presentation__title">Video Sobre el Producto</h2>
+        <div class="video-presentation__container">
+            <iframe class="video-presentation__iframe" src="https://www.youtube.com/embed/LwAOLcqldXI" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="main-container" id="plans">
+        <div class="pricing-container">
+            <h1 class="title">Planes y Precios</h1>
+            <h2 class="subtitle">Productores Agrícolas</h2>
+            <p class="description">Elija el Plan que Mejor se Adapte a sus Necesidades</p>
+
+            <div class="plans">
+                <!-- Basic Plan -->
+                <div class="plan plan-background-black">
+                    <div class="plan-header plan-header-green">
+                        <h3 class="plan-package">Paquete 1</h3>
+                    </div>
+                    <div class="plan-body plan-background-black">
+                        <h2 class="plan-name">Plan Básico</h2>
+                        <p class="plan-price">$19.99</p>
+                        <p class="plan-period">/mes</p>
+                        <hr>
+                        <ul class="plan-features">
+                            <li>Campos: Gestión de 1 campo</li>
+                            <li>Plantación: Seguimiento básico de cantidades de plantas y mano de obra. Acceso a
+                                herramientas esenciales de gestión agrícola.</li>
+                            <li>Riego: Calendario básico de programación.</li>
+                            <li>Fumigación: Planificación simple para la fumigación.</li>
+                            <li>Cosecha: Seguimiento de la producción.</li>
+                            <li>Distribución: Gestión básica de ventas.</li>
+                            <li>Soporte: Soporte estándar.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer plan-background-black">
+                        <!-- <button class="btn trial-btn">Start Free Trial</button> -->
+                        <button class="btn buy-btn trial-btn">Comprar</button>
+                    </div>
+                </div>
+
+                <!-- Advanced Plan -->
+                <div class="plan plan-background-green">
+                    <div class="plan-header plan-header-black">
+                        <h3 class="plan-package">Paquete 2</h3>
+                    </div>
+                    <div class="plan-body plan-background-green">
+                        <h2 class="plan-name">Plan Premium</h2>
+                        <p class="plan-price">$89.99</p>
+                        <p class="plan-period">/mes</p>
+                        <hr>
+                        <ul class="plan-features">
+                            <li>Campos: Gestión de hasta 5 campos.</li>
+                            <li>Plantación avanzada: Seguimiento detallado y análisis de costos.</li>
+                            <li>Riego inteligente: Calendario de programación optimizado con alertas.</li>
+                            <li>Gestión de ganancias y pérdidas. Fumigación detallada: Seguimiento avanzado de productos
+                                y equipo.</li>
+                            <li>Cosecha analítica: Informes completos de rendimiento.</li>
+                            <li>Distribución y finanzas: Gestión avanzada de ventas y finanzas.</li>
+                            <li>Soporte: Soporte prioritario.</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer plan-background-green">
+                        <button class="btn buy-btn trial2-btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-plan-Distributor -->
+    <section class="main-container">
+        <div class="pricing-container">
+            <h1 class="title">Planes y Precios</h1>
+            <h2 class="subtitle">Distribuidores</h2>
+            <p class="description">Elija el Plan que Mejor se Adapte a sus Necesidades</p>
+
+            <div class="plans">
+                <!-- Advanced Plan -->
+                <div class="plan plan-background-green">
+                    <div class="plan-header plan-header-black">
+                        <h3 class="plan-package">Paquete 1</h3>
+                    </div>
+                    <div class="plan-body plan-background-green">
+                        <h2 class="plan-name">Plan Estándar</h2>
+                        <p class="plan-price">$89.99</p>
+                        <p class="plan-period">/mes</p>
+                        <hr>
+                        <ul class="plan-features">
+                            <li>Gestión de Inventario: Monitoreo en tiempo real del inventario agrícola</li>
+                            <li>Programación de Entregas: Planifica y programa entregas de manera eficiente</li>
+                            <li>Análisis de Ventas: Genera ideas con informes detallados de ventas</li>
+                            <li>Gestión de Pedidos: Optimiza el seguimiento y cumplimiento de pedidos</li>
+                            <li>Notificaciones y Alertas: Mantente actualizado con alertas instantáneas</li>
+                            <li>Soporte al Cliente: Acceso a servicios de soporte dedicados</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer plan-background-green">
+                        <button class="btn buy-btn trial2-btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container testimonials" id="testimonials">
+
+        <div class="testimonials__header">
+            <h2 class="testimonials__header-title">
+                <span>Escucha que dicen nuestros</span> Clientes
+            </h2>
+            <p class="testimonials__header-text">
+                Descubre cómo hemos ayudado a nuestros clientes a alcanzar sus metas
+                agrícolas con nuestras soluciones.
+            </p>
+        </div>
+
+        <div class="testimonials__cards">
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-header">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h4>Luisa Gutiérrez</h4>
+                </div>
+                <div class="testimonials__card-body">
+                    <p>
+                        AgroControl ha simplificado el manejo de mi chacra. Ahora
+                        organizo mis cultivos y controlo el riesgo de forma eficiente,
+                        ahorrando tiempo y aumentando la productividad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-header">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h4>Lorena Herrera</h4>
+                </div>
+                <div class="testimonials__card-body">
+                    <p>
+                        La planificación de AgroControl es fácil y efectiva. He
+                        mejorado la calidad de mis cosechas y mantengo mi
+                        inventario siempre al día.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-header">
+                    <img src="https://images.unsplash.com/photo-1608193882486-3af78815f450?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h4>Luis Gutiérrez</h4>
+                </div>
+                <div class="testimonials__card-body">
+                    <p>
+                        Tengo una visión clara de mi chacra. El riego automatizado y la toma de
+                        decisiones informadas han mejorado mis rendimientos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-header">
+                    <img src="https://images.unsplash.com/photo-1617330527074-fe659f90e7b5?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h4>Carlos Tello</h4>
+                </div>
+                <div class="testimonials__card-body">
+                    <p>
+                        AgroControl ha hecho mi trabajo más eficiente. Es una herramienta indispensable
+                        para gestionar recursos y enfrentar épocas de sequía.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-header">
+                    <img src="https://images.unsplash.com/photo-1630694892664-99ec5225361a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h4>Carlos Palma</h4>
+                </div>
+                <div class="testimonials__card-body">
+                    <p>
+                        AgroControl ha simplificado el manejo de mi chacra. Ahora
+                        organizo mis cultivos y controlo el riesgo de forma eficiente,
+                        ahorrando tiempo y aumentando la productividad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-header">
+                    <img src="https://images.unsplash.com/photo-1440589473619-3cde28941638?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                    <h4>Maria De la Cruz</h4>
+                </div>
+                <div class="testimonials__card-body">
+                    <p>
+                        AgroControl ha simplificado el manejo de mi chacra. Ahora
+                        organizo mis cultivos y controlo el riesgo de forma eficiente,
+                        ahorrando tiempo y aumentando la productividad.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="video-presentation container">
+        <h2 class="video-presentation__title">Video Sobre el Equipo</h2>
+        <p class="about-us__description">
+            WebWorks es una startup que crea soluciones de gestión para empresas agrícolas y distribuidores, optimizando sus procesos y priorizando la experiencia del usuario para ofrecer una herramienta eficaz que mejore su desempeño y los haga destacar en el mercado.
+        </p>
+
+        <h3 class="about-us__collaborators">Desarrolladores del Proyecto</h3>
+
+        <div class="members">
+
+            <div class="member">
+                <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/profileImages/Johan-Principe.png" alt="">
+                <h3>Johan Príncipe </h3>
+            </div>
+
+            <div class="member">
+                <img src="https://imgur.com/K4MVcS2.jpg" alt="">
+                <h3>Andre Arroyo </h3>
+            </div>
+
+            <div class="member">
+                <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/profileImages/alejandro-espino-profile.jpeg" alt="">
+                <h3>Alejandro Espino</h3>
+            </div>
+
+            <div class="member">
+                <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/profileImages/hardie.jpg" alt="">
+                <h3>Hardie Holguin</h3>
+            </div>
+
+            <div class="member">
+                <img src="https://raw.githubusercontent.com/W3bW0rks/Agrocontrol-project-report/refs/heads/main/assets/profileImages/GonzaloQuedena.png" alt="">
+                <h3>Gonzalo Quedena</h3>
+            </div>
+        </div>
+
+        <div class="video-presentation__container">
+            <iframe class="video-presentation__iframe" src="https://www.youtube.com/embed/TYGtaY8sOfo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <h2> Gestiona de la manera <span id="txt-span">más eficiente</span></h2>
+
+        <p> Regístrate hoy y comienza a optimizar tus operaciones agrícolas. Gestiona inventarios, monitorea el
+            rendimiento y mucho más, todo desde una sola plataforma.</p>
+
+        <h3> ¡Regístrate ahora y empieza a transformar tu negocio!</h3>
+
+        <button type="button" onclick="location.href='https://agrocontrol-frontend.vercel.app';" class="button">Regístrate ahora</button>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="assets/logo-agro-control.png" alt="AgroControl" width="150rem">
+            </div>
+            <div class="social-icons">
+                <a href="#"> <button><img src="assets/twitter-icon.png" alt="twitter"></button></a>
+                <a href="#"> <button><img src="assets/instagram-icon.png" alt="instagram"></button></a>
+                <a href="#"> <button><img src="assets/facebook-icon.png" alt="facebook"></button></a>
+                <a href="#"> <button><img src="assets/youtube-icon.png" alt="Youtube"></button></a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Acerca de nostros</a></li>
+                <li><a href="#">Servicio</a></li>
+                <li><a href="#">Precios</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contáctanos</h3>
+            <ul>
+                <li><img src="assets/email-icon.png" alt="Email" width="10px"> hello@website.com</li>
+                <li><img src="assets/location-icon.png" alt="Location" width="10px"> Riverside Building, County Hall,
+                    London SE1 7PB, United Kingdom</li>
+                <li><img src="assets/phone-icon.png" alt="Phone" width="10px"> 451-484-5939</li>
+            </ul>
+        </div>
+
+        <div class="footer-newsletter">
+            <h3>Hoja informativa</h3>
+            <form>
+                <input type="email" placeholder="Ingresa tu correo" required>
+                <button type="submit">Subscribirse</button>
+            </form>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
